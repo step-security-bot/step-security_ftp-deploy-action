@@ -86,8 +86,8 @@ jobs:
     - name: 🚚 Get latest code
       uses: actions/checkout@v6
 
-    - name: Use Node.js 16
-      uses: actions/setup-node@v4
+    - name: Use Node.js 24
+      uses: actions/setup-node@v6
       with:
         node-version: '16'
       
